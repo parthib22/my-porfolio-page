@@ -46,6 +46,27 @@ export default function Home() {
         </span>
         <desc>Hello there! 👋</desc>
       </main>
+      <main className="projects">
+        <div className="pro">
+          <Image
+            src={"/weatherize.png"}
+            width={1920}
+            height={970}
+            alt="pro"
+          ></Image>
+        </div>
+        <div className="pro">
+          <Image
+            src={"/weathernxt.png"}
+            width={1920}
+            height={970}
+            alt="pro"
+          ></Image>
+        </div>
+        <div className="pro">
+          <Image src={""} width={1920} height={970} alt="pro"></Image>
+        </div>
+      </main>
     </>
   );
 }
