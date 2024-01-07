@@ -37,7 +37,15 @@ export default function Home() {
           </svg>
         </button>
       </div>
-      <main></main>
+      <main className="intro">
+        <div>
+          <Image src={"/me.jpg"} height={200} width={200} alt={"pfp"}></Image>
+        </div>
+        <span>
+          Parthib<span style={{ color: "darkgrey" }}>DS</span>
+        </span>
+        <desc>Hello there! 👋</desc>
+      </main>
     </>
   );
 }
