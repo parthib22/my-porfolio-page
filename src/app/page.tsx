@@ -42,7 +42,7 @@ export default function Home() {
           <Image src={"/me.jpg"} height={200} width={200} alt={"pfp"}></Image>
         </div>
         <span>
-          Parthib<span style={{ color: "darkgrey" }}>DS</span>
+          Parthib<span style={{ color: "red" }}>DS</span>
         </span>
         <desc>Hello there! 👋</desc>
       </main>
